@@ -1,6 +1,6 @@
-package ma.emsi.customerservice.config;
+package ma.emsi.inventoryservice.config;
 
-import ma.emsi.customerservice.entities.Customer;
+import ma.emsi.inventoryservice.entities.Product;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
@@ -10,6 +10,6 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 public class RestRepositoryConfig implements RepositoryRestConfigurer {
     @Override
     public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config, CorsRegistry cors) {
-       config.exposeIdsFor(Customer.class);//we do this so that the id also gets printed when using Data Rest
+       config.exposeIdsFor(Product.class);//we do this so that the id also gets printed when using Data Rest
     }
 }
