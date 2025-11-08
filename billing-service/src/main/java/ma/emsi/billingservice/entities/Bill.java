@@ -17,4 +17,13 @@ public class Bill {
     @OneToMany(mappedBy = "bill")
     private List<ProductItem> productItems = new ArrayList<>();
     @Transient private Customer customer;//with @Transient we say to jpa to ignore this entity as it does not exist in the db
+
+    public double getTotal(){
+        double total = 0;
+        for (ProductItem productItem : productItems) {
+            total+=productItem.getAmount();
+        }
+        return total;
+    }
+
 }
