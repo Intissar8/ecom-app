@@ -9,6 +9,8 @@
     <file url="file://$PROJECT_DIR$/gateway-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/inventory-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/kafka-spring-cloud-stream/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mcp-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rag-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
