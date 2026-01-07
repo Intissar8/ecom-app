@@ -1,3 +1,5 @@
+<h2>Partie Back-end</h2>
+
 <h2>La liste des clients dans la base h2</h2>
 <img src="/pictures/customer_h2.jpg">
 <h2>La liste des clients avec Spring Data Rest</h2>
