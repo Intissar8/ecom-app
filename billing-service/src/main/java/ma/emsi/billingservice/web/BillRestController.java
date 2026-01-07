@@ -5,6 +5,8 @@ import ma.emsi.billingservice.Feign.ProductRestClient;
 import ma.emsi.billingservice.entities.Bill;
 import ma.emsi.billingservice.repository.BillRepository;
 import ma.emsi.billingservice.repository.ProductItemRepository;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.core.Authentication;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -21,6 +23,7 @@ public class BillRestController {
     @Autowired
     private ProductRestClient productRestClient;
     @GetMapping(path = "/bills/{id}")
+    @PreAuthorize("hasAuthority('USER')")
     public Bill getBill(@PathVariable Long id){
         Bill bill = billRepository.findById(id).get();
         bill.setCustomer(customerRestClient.getCustomerById(bill.getCustomerId()));
@@ -29,4 +32,12 @@ public class BillRestController {
         });
         return bill;
     }
+
+    @GetMapping("/auth")
+    public Authentication authentication(Authentication authentication){
+        return authentication;
+    }
+
+
+
 }
