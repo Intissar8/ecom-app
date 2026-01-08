@@ -43,3 +43,6 @@
 <img src="/pictures/customer-service_config_dev.jpg">
 <h2>Ensemble du service dans Discovery-service</h2>
 <img src="/pictures/ensemble du service dans Discovery-service.jpg">
+
+<h2>Une application Web qui permet d'afficher les résultats du Stream Data Analytics en temps réel</h2>
+<img src="kafka-spring-cloud-stream\pictures\analitics avec smoothie js.jpg">
