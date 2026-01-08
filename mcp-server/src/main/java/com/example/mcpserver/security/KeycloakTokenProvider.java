@@ -10,7 +10,7 @@ public class KeycloakTokenProvider {
     private final WebClient webClient = WebClient.builder().build();
 
     private final String clientId = "mcp-client";
-    private final String clientSecret = "AbFVNIpuHHGjkmKzgTCMdoNjIOTnrq6z"; // replace with your actual secret
+    private final String clientSecret = "AbFVNIpuHHGjkmKzgTCMdoNjIOTnrq6z";
     private final String tokenUrl = "http://localhost:8080/realms/Intissar-realm/protocol/openid-connect/token";
 
     public String getAccessToken() {

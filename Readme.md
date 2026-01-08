@@ -46,3 +46,19 @@
 
 <h2>Une application Web qui permet d'afficher les résultats du Stream Data Analytics en temps réel</h2>
 <img src="kafka-spring-cloud-stream\pictures\analitics avec smoothie js.jpg">
+
+
+<h2>Chatbot:Des captures d’écran du code ont été jointes,car  la clé API OpenAI ne fonctionnant pas</h2>
+
+
+<h2>Communication avec le Billing service  via OpenFeign </h2>
+<img src="pictures\cnx avec billing service.jpg">
+<img src="pictures\cnx2.jpg">
+
+<h2>Configuration avec Keycloak</h2>
+<img src="pictures\config de feign avec keyclock.jpg">
+<img src="pictures\token.jpg">
+
+<h2>MCP tool </h2>
+<img src="pictures\billing mcp tool.jpg">
+
