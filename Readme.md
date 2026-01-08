@@ -62,3 +62,20 @@
 <h2>MCP tool </h2>
 <img src="pictures\billing mcp tool.jpg">
 
+<h2>Création d'un client </h2>
+<img src="pictures\clientang.jpg">
+
+<h2>test d'authentification pour GET produit </h2>
+<img src="pictures\get product secur.jpg">
+
+<h2>test d'authentification dans app angular </h2>
+<img src="pictures\auth products.jpg">
+<img src="pictures\product auth ang 2.jpg">
+<img src="pictures\product auth ang.jpg">
+
+<h2>Creation du copmte  USERS par defaut dans app angular </h2>
+<img src="pictures\register.jpg">
+<img src="pictures\register2.jpg">
+
+<h2>OTP user2 </h2>
+<img src="pictures\otp user2 anf.jpg">
